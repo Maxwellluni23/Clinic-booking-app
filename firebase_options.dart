@@ -43,43 +43,18 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDsa2hI6xaX1BBHskp2vFCTnAYrJZk4QSo',
-    appId: '1:993958939137:web:10a46567eed2da40a64e00',
-    messagingSenderId: '993958939137',
-    projectId: 'dibrimak-b0193',
-    authDomain: 'dibrimak-b0193.firebaseapp.com',
-    databaseURL: 'https://dibrimak-b0193-default-rtdb.firebaseio.com',
-    storageBucket: 'dibrimak-b0193.appspot.com',
-    measurementId: 'G-69SQXJ1G0F',
-  );
+  static const FirebaseOptions web = FirebaseOptions();
+    
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAbapCQrdQfOVuBSHDIPteygk9PD-8Wb-w',
-    appId: '1:993958939137:android:62916d3e830f6aaba64e00',
-    messagingSenderId: '993958939137',
-    projectId: 'dibrimak-b0193',
-    databaseURL: 'https://dibrimak-b0193-default-rtdb.firebaseio.com',
-    storageBucket: 'dibrimak-b0193.appspot.com',
+    
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAlga3vbrRjU69yFmmLxxbmRXuDPJkik8g',
-    appId: '1:993958939137:ios:15bcbaaef6c3b395a64e00',
-    messagingSenderId: '993958939137',
-    projectId: 'dibrimak-b0193',
-    databaseURL: 'https://dibrimak-b0193-default-rtdb.firebaseio.com',
-    storageBucket: 'dibrimak-b0193.appspot.com',
-    iosBundleId: 'com.example.dibrimakMobile',
+  
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyAlga3vbrRjU69yFmmLxxbmRXuDPJkik8g',
-    appId: '1:993958939137:ios:ab50ed6b1214c946a64e00',
-    messagingSenderId: '993958939137',
-    projectId: 'dibrimak-b0193',
-    databaseURL: 'https://dibrimak-b0193-default-rtdb.firebaseio.com',
-    storageBucket: 'dibrimak-b0193.appspot.com',
-    iosBundleId: 'com.example.dibrimakMobile.RunnerTests',
+    
   );
 }
